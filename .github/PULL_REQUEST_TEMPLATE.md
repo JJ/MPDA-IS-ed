@@ -1,4 +1,4 @@
-# Entrega del objetivo del proyecto de Infraestructura virtual
+# Entrega del PR para un nivel del proyecto de IS
 
 ## Primero y mas importante
 
@@ -7,6 +7,6 @@
 
 ## Lista de comprobación para hitos
 
-* [ ] GUION: He leído el guión del hito
-* [ ] PRE: Cumplo los prerrequisitos (he aprobado el hito anterior, por ejemplo)
+* [ ] GUION: He leído el guión correspondiente
+* [ ] PRE: Cumplo los prerrequisitos (he pasado los tests del anterior, por ejemplo)
 
