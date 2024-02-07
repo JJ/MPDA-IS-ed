@@ -45,12 +45,12 @@ jobs:
           fase: ${{env.objetivo}}
         uses: JJ/grading-source-tests-gh-action@main
       - name: Testea contenedor
-        if: ${{env.objetivo >= 5 }}
+        if: ${{env.objetivo >= 6 }}
         env:
           CONTAINER: ${{ env.docker_user }}/${{ env.repo }}
         run: docker run -t -v `pwd`:/app/test ${CONTAINER,,}
       - name: Testea API
-        if: ${{env.objetivo >= 9 }}
+        if: ${{env.objetivo >= 10 }}
         env:
           CONTAINER: ${{ env.docker_user }}/${{ env.repo }}
           ORDEN: ${{env.ORDEN}}
@@ -165,7 +165,7 @@ jobs:
               })
             }
       - name: Comprueba el estado de CI
-        if: ${{env.objetivo >= 6 }}
+        if: ${{env.objetivo >= 7 }}
         uses: actions/github-script@v5
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
@@ -210,21 +210,3 @@ jobs:
             } else {
               console.log( all_good("Hay alguno de los autorizados funcionando" ))
             }
-  random-revisor:
-    runs-on: ubuntu-latest
-    needs: [ops-on-pr, ops-on-source, ops-using-API]
-    if: needs.ops-on-pr.outputs.objetivo >= 1
-    env:
-      user: ${{ needs.ops-on-pr.outputs.user }}
-      repo: ${{ needs.ops-on-pr.outputs.repo }}
-      pull_number: ${{ needs.ops-on-pr.outputs.pull_number }}
-      this_pr_number: ${{github.event.number}}
-      COMMENT_TOKEN: ${{ secrets.COMMENT_TOKEN }}
-      objetivo: ${{ needs.ops-on-pr.outputs.objetivo }}
-    steps:
-      - name: Fuentes de este repo (para JSON)
-        uses: actions/checkout@v4
-      - name: Paquete no fatpackeado
-        run: sudo apt install liblwp-protocol-https-perl
-      - name: Revisores aleatorios
-        run: scripts/random-reviewer
