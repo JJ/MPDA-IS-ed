@@ -5,11 +5,11 @@ jobs:
   check_pr:
     runs-on: ubuntu-latest
     steps:
-    - name: Comprobaciones IV
-      uses: JJ/github-pr-contains-action@releases/v8
+    - name: Comprobaciones PR
+      uses: JJ/github-pr-contains-action@releases/v13
       with:
         github-token: ${{github.token}}
-        bodyContains: "] NOCERRAR"
-        bodyDoesNotContain: "Borrar"
+        bodyContains: "x] NOCERRAR"
         filesChanged: 1
+        linesChanged: 1
 
