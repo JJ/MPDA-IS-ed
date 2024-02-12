@@ -9,6 +9,6 @@ mismos.
 | URL del PR | Versión | Alcanzado |
 |------------|---------|-----------|
 | Komando 4  |         |           |
-| CodeCraft  |         |           |
+| [CodeCraft](https://github.com/Codecr-ft/TurnoGen/pull/1)  |     0.0.0    |           |
 | TasApp     |         |           |
 | Spútnico   |         |           |
