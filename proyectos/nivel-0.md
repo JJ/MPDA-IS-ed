@@ -11,4 +11,4 @@ mismos.
 | Komando 4  |         |           |
 | CodeCraft  |         |           |
 | TasApp     |         |           |
-| https://github.com/Sputnikomk2/ProyectoSputniko/pull/1   | 0.0        |           |
+| https://github.com/Sputnikomk2/ProyectoSputniko/pull/1   | 0.0.1      |           |
