@@ -10,5 +10,5 @@ mismos.
 |------------|---------|-----------|
 | Komando 4  |         |           |
 | [CodeCraft](https://github.com/Codecr-ft/TurnoGen/pull/1)  |     0.0.0    |           |
-| TasApp     |         |           |
+| [TasApp] (https://github.com/T-ASAPP/T-asapp/pull/2)    | 0.0.1        |           |
 | Spútnico   |         |           |
