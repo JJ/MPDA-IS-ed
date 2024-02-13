@@ -21,7 +21,7 @@ jobs:
         name: Comprueba y analiza
         uses: JJ/grading-pr-info-gh-action@main
         with:
-          prefijo: [IS-
+          prefijo: '[IS-'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ops-on-source:
