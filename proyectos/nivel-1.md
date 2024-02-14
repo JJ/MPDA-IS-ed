@@ -4,7 +4,7 @@
 |------------|---------|-----------|
 | Komando 4  |         |           |
 | CodeCraft  |         |           |
-| TasApp     |         |           |
-| Spútnico   |         |           |
+| [TasApp] (https://github.com/T-ASAPP/T-asapp/pull/15)     | 0.0.0     |           |
+| Spútnico   |         |           | 
 | Artur      |         |           |
 |            |         |           |
