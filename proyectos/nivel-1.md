@@ -6,5 +6,5 @@
 | CodeCraft  |         |           |
 | [TasApp] (https://github.com/T-ASAPP/T-asapp/pull/15)     |  0.1.4       |           |
 | Spútnico   |         |           |
-| Artur      |         |           |
+| Artur  https://github.com/Artur-Sultanov/USSR90/pull/3    |         |           |
 |            |         |           |
