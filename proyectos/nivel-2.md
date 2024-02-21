@@ -4,6 +4,6 @@
 |------------|---------|-----------|
 | [Komando 4](https://github.com/Komando4ediae/komando4Project/pull/15)  |   0.2.1      |           |
 | [CodeCraft](https://github.com/Codecr-ft/TurnoGen/pull/29)   |    0.2.1     |           |
-| [TasApp](https://github.com/T-ASAPP/T-asapp/pull/34)     |    0.2.2 |           |
+| [TasApp](https://github.com/T-ASAPP/T-asapp/pull/34)     |    0.2.3 |           |
 | Spútnico   |         |           |
 | Artur      |         |           |
