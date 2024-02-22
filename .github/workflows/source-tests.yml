@@ -17,6 +17,13 @@ jobs:
       pr_milestone: ${{steps.pr_info.outputs.pr_milestone}}
       pull_number: ${{steps.pr_info.outputs.pull_number}}
     steps:
+      - name: Comprueba a qué rama se está haciendo el PR
+        if: ${{ github.base_ref != 'main' }}
+        env:
+          RAMA: ${{ github.base_ref }}
+        run:
+          echo "::error::Se tiene que hacer el PR desde main, no $(RAMA)"
+          exit 1
       - id: pr_info
         name: Comprueba y analiza
         uses: JJ/grading-pr-info-gh-action@main
