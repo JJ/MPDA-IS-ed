@@ -22,7 +22,7 @@ jobs:
         env:
           RAMA: ${{ github.base_ref }}
         run:
-          echo "::error::Se tiene que hacer el PR desde main, no $(RAMA)"
+          echo "::error::Se tiene que hacer el PR desde main, no $RAMA"
           exit 1
       - id: pr_info
         name: Comprueba y analiza
