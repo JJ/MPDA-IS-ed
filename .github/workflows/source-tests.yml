@@ -21,7 +21,7 @@ jobs:
         if: ${{ github.base_ref != 'main' }}
         env:
           RAMA: ${{ github.base_ref }}
-        run:
+        run: |
           echo "::error::Se tiene que hacer el PR desde main, no $RAMA"
           exit 1
       - id: pr_info
