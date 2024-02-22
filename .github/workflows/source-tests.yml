@@ -46,7 +46,7 @@ jobs:
         uses: JJ/grading-source-tests-gh-action@main
         with:
           fase: ${{env.objetivo}}
-          config-file: "is"
+          configfile: "is"
       - name: Testea contenedor
         if: ${{env.objetivo >= 6 }}
         env:
