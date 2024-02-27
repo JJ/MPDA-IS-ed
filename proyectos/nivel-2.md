@@ -6,4 +6,4 @@
 | [CodeCraft](https://github.com/Codecr-ft/TurnoGen/pull/29)            | 0.2.1   |           |
 | [TasApp](https://github.com/T-ASAPP/T-asapp/pull/34)                  | 0.2.3   |           |
 | [Spútnico](https://github.com/Sputnikomk2/ProyectoSputniko/pull/27)   | 0.2.3   |           |
-| Artur                                                                 |         |           |
+| [Artur](https://github.com/Artur-Sultanov/FISH/pull/8)                | 0.2.1   |           |
